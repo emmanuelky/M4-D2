@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 class MyFooter extends Component {
     render() {
         return (
-            <Navbar fixed="bottom">
+            <Navbar className='justify-content-center'>
 
                 <Nav.Link href="#">Imprint</Nav.Link>
                 <Nav.Link href="#">Data Protection</Nav.Link>

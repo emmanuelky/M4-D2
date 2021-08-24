@@ -6,7 +6,7 @@ class BookNavbar extends Component {
     render() {
 
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" >
                 <Container>
                     <Navbar.Brand href="#home">Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

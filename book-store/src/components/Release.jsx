@@ -9,7 +9,7 @@ class Release extends Component {
     }
     render() {
         return (
-            <div className='d-flex flex-wrap'>
+            <div className='d-flex flex-wrap justify-content-center'>
                 {books.map(book => (
                     <Card key={book.asin} style={{ width: '18rem' }} className='mt-5 m-3'>
                         <Card.Img variant="top" src={book.img} />
@@ -18,7 +18,10 @@ class Release extends Component {
                             <Card.Text>
                                 Category: {book.category}
                             </Card.Text>
-                            <Button variant="primary">{book.price}</Button>
+                            <Card.Text>
+                                {book.price} €
+                            </Card.Text>
+                            <Button variant="primary">Add to cart</Button>
                         </Card.Body>
                     </Card>
                 ))}
