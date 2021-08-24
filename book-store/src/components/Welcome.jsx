@@ -1,6 +1,3 @@
-
-
-
 const Welcome = () => {
     return (
         <div className="jumbotron jumbotron-fluid mt-4">
