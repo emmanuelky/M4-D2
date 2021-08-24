@@ -1,19 +1,19 @@
 import { Component } from 'react';
-import { Card } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap';
 
 class MyFooter extends Component {
     render() {
         return (
-            <Card>
-                <Card.Body>
-                    <Card.Link href="#">Imprint</Card.Link>
-                    <Card.Link href="#">Data Protection</Card.Link>
-                    <Card.Link href="#">Privacy</Card.Link>
-                    <Card.Link href="#">Features</Card.Link>
-                    <Card.Link href="#">Services</Card.Link>
-                    <Card.Link href="#">Contact</Card.Link>
-                </Card.Body>
-            </Card>
+            <Navbar fixed="bottom">
+
+                <Nav.Link href="#">Imprint</Nav.Link>
+                <Nav.Link href="#">Data Protection</Nav.Link>
+                <Nav.Link href="#">Privacy</Nav.Link>
+                <Nav.Link href="#">Features</Nav.Link>
+                <Nav.Link href="#">Services</Nav.Link>
+                <Nav.Link href="#">Contact</Nav.Link>
+
+            </Navbar>
         )
     }
 }
