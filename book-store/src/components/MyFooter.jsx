@@ -1,17 +1,8 @@
-import { Navbar, Nav } from 'react-bootstrap';
 
-const MyFooter = () => {
-    return (
-        <Navbar className='justify-content-center'>
+import React from 'react';
 
-            <Nav.Link href="#">Imprint</Nav.Link>
-            <Nav.Link href="#">Data Protection</Nav.Link>
-            <Nav.Link href="#">Privacy</Nav.Link>
-            <Nav.Link href="#">Features</Nav.Link>
-            <Nav.Link href="#">Services</Nav.Link>
-            <Nav.Link href="#">Contact</Nav.Link>
-
-        </Navbar>
-    )
+export default function MyFooter() {
+    return <footer className="d-flex bg-dark">
+        <span className="text-white m-auto"><strong>Strive School</strong> - Copyright 2021</span>
+    </footer>
 }
-export default MyFooter;

@@ -1,19 +1,17 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import BookNavbar from './components/BookNavbar.jsx';
-import MyFooter from './components/MyFooter.jsx';
-import Welcome from './components/Welcome.jsx';
-import Release from './components/Release.jsx';
+import './App.css';
+import MyNav from './components/MyNav'
+import MyFooter from './components/MyFooter'
+import MyJumbotron from './components/MyJumbotron';
+import LatestReleases from './components/LatestReleases';
 
 function App() {
-  return (
-    <div className="App">
-      <BookNavbar />
-      <Welcome />
-      <Release />
-      <MyFooter />
-    </div>
-  );
+  return (<>
+    <MyNav />
+    <MyFooter />
+    <MyJumbotron />
+    <LatestReleases />
+  </>);
 }
 
 export default App;
